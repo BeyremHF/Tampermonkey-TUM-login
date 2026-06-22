@@ -33,6 +33,17 @@ The scripts chain together to handle the full login sequence automatically:
    - Save (Ctrl+S)
 5. Make sure all scripts are **enabled** in the Tampermonkey dashboard
 
+## Which scripts do you need?
+
+You do not have to install all four scripts. Install only what matches your use case:
+
+| Goal | Scripts needed |
+|------|---------------|
+| Full automation (Moodle → TUM SSO → login) | All four |
+| Only auto-login on `login.tum.de` | `TUM_auto_login.js` only |
+| Moodle automation | `TUM_Moodle_SSO_click.js` + `TUM_auto_login.js` |
+| TUMonline automation | `TUM_Online_SSO_click.js` + `TUM_campus_login_click.js` + `TUM_auto_login.js` |
+
 
 ## Security note
 
