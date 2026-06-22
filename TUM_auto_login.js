@@ -19,8 +19,8 @@
 
         if (!userField || !passField || !btnLogin) return false;
 
-        userField.value = 'go67abc';  // Put your TUM username here
-        passField.value = 'your_password';  // Put your TUM password here
+        userField.value = 'YOUR_LRZ_ID';  // Put your TUM username here
+        passField.value = 'YOUR_PASSWORD';  // Put your TUM password here
 
         userField.dispatchEvent(new Event('input', { bubbles: true }));
         passField.dispatchEvent(new Event('input', { bubbles: true }));
