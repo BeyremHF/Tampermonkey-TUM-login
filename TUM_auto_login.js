@@ -25,7 +25,7 @@
         userField.dispatchEvent(new Event('input', { bubbles: true }));
         passField.dispatchEvent(new Event('input', { bubbles: true }));
 
-        if (keepLoggedIn && !keepLoggedIn.checked) {
+        if (keepLoggedIn && !keepLoggedIn.checked) {  // This will automatically press on the "keep me logged in" button. 
             keepLoggedIn.click();
         }
 
